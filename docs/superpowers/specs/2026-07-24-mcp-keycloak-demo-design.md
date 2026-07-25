@@ -16,9 +16,6 @@ and run locally.
 
 ## Location
 
-New, self-contained top-level folder, independent of the existing `rag-demo/` work on this
-branch:
-
 ```
 mcp-demos/
 ├── GUIDE.md
@@ -27,14 +24,6 @@ mcp-demos/
 ├── use-case-3-ldap-wildfly-bridge/
 └── use-case-4-odh-model-serving/
 ```
-
-Rationale: keeps this teaching artifact decoupled from the production RAG platform's setup
-complexity (SSO, Drive ingestion, audit logs), so it stays fast to run and easy to reproduce
-for an external audience.
-
-**Note on scope growth:** this spec was expanded after initial approval, at the requester's
-direction, to cover a broader enterprise open-source landscape (LDAP, WildFly, Open Data
-Hub/RHOAI) beyond the original two use cases.
 
 ## 1. GUIDE.md — conceptual reference
 
