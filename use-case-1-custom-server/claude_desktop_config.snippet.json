@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "enterprise-tools-demo": {
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-demos/use-case-1-custom-server/server.py"]
+    }
+  }
+}
